@@ -1,0 +1,7 @@
+package mymain;
+
+public class 명명법 {
+	public static void main(String[] args) {  //main + ctrl+space 하면 메인 메소드 바로 불러와짐
+		
+	}
+}

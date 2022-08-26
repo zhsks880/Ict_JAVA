@@ -1,0 +1,16 @@
+package mymain;
+
+public class _01_논리형자료형 {
+
+	public static void main(String[] args) {
+		//논리형자료형 : boolean
+		//1.상수     : true false
+		//2.출력서식 : %b %B
+		
+		boolean b0k = 3 > 2;
+		System.out.printf(" 3 > 2 : %b\n", b0k);
+		System.out.printf(" 3 > 2 : %B\n", b0k);
+		
+	}
+
+}

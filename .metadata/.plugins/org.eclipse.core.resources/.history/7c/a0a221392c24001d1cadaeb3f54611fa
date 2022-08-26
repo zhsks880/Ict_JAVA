@@ -1,0 +1,26 @@
+package mymain;
+
+//Scanner의 위치정보를 알려준다
+import java.util.Scanner;
+
+
+public class _06_키보드입력 {
+
+	public static void main(String[] args) {
+		//개인정보 : 이름 나이 전화번호 키
+		
+		//변수선언
+		String name;
+		int age;
+		String tel;
+		double height;
+		
+		
+		//키보드로부터 입력받기 위한 객체
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		
+	}
+
+}

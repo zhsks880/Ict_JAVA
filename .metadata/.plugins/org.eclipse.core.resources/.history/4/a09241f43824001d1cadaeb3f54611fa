@@ -1,0 +1,39 @@
+package mymain;
+
+
+//Scanner의 위치정보를 알려준다 / Scann까지만 치고 컨트롤스페이스 치면 임포트 유틸 뜸
+import java.util.Scanner;
+
+
+public class _06_키보드입력 {
+
+	public static void main(String[] args) {
+		//개인정보 : 이름 나이 전화번호 키
+		
+		//변수선언
+		String name;
+		int age;
+		String tel;
+		double height;
+		
+		
+		//키보드로부터 입력받기 위한 객체
+		//클래스정보 확인 : 해당클래스에 캐럿(Caret)위치시키고 F4키 누른다
+		Scanner scanner = new Scanner(System.in);
+		
+		//문자열입력받기
+		//next()		: 공백 또는 엔터전까지 가져오기
+		//nextLine()	: 공백포함해서 가져오기
+		
+		//1.이름입력받기
+		System.out.print("이름을 넣어주세요-> ");
+		name = scanner.next();
+		
+		//2.출력해보기
+		System.out.printf("이름 : %s\n", name);
+		
+		
+		
+	}
+
+}
