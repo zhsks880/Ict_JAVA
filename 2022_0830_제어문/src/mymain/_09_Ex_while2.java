@@ -16,9 +16,8 @@ public class _09_Ex_while2 {
 		int white_char_count = 0; //화이트문자(공백 \r\n 탭)
 		int etc_count=0; //특수문자
 		
-		
 		//for(int i=0; i<38; i++)
-		while(true)	//무한 loop
+		while(true)	//조건이 true라서 무한 loop
 		{
 			//파일로부터 1글자씩 읽어오는 코드
 			int ch = fr.read();
@@ -34,7 +33,7 @@ public class _09_Ex_while2 {
 			else if (ch>='0' && ch<='9')		// ' ' <표시 박아줘야 숫자 읽힘
 				number_count++;
 			//화이트문자냐?
-			else if (ch=='\r' || ch=='\n' || ch==32 || ch=='\t')
+			else if (ch=='\r' || ch=='\n' || ch==32 || ch=='\t' || ch==' ')
 				white_char_count++;
 			//기타
 			else
