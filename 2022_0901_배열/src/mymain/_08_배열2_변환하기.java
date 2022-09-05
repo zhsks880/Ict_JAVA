@@ -25,5 +25,13 @@ public class _08_배열2_변환하기 {
 		System.out.println("====[상하 뒤집기]====");
 		MyArrays2.display(dest);
 		
+		dest = Translate.flip_diagonal_1(src);
+		System.out.println("====[대각 뒤집기]====");
+		MyArrays2.display(dest);
+		
+		dest = Translate.flip_diagonal_2(src);
+		System.out.println("====[역대각 뒤집기]====");
+		MyArrays2.display(dest);
+		
 	}
 }
