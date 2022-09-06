@@ -7,8 +7,22 @@ public class MyDate2 {
 	private int month;
 	private int day;
 	
+	//기본생성자
+	public MyDate2() {
+	
+	}
+	
+	//오버로드 된 생성자
+	public MyDate2(int year, int month, int day) {
+		super();
+		this.year = year;
+		this.month = month;
+		this.day = day;
+	}
+	
 	//알트 + 쉬프트 + s = 코드자동생성 단축키
 	
+	//Getter , Setter 된 생성자
 	public int getYear() {
 		return year;
 	}
@@ -27,10 +41,5 @@ public class MyDate2 {
 	public void setDay(int day) {
 		this.day = day;
 	}
-	
-	
-	
-	
-	
 	
 }
