@@ -161,7 +161,7 @@ public class Jumin {
 		else if (area>=86 && area<=92) ji = "경상남도";
 		else if (area>=93 && area<=95) ji = "제주도";
 		else if (area>=44 && area<=49) ji = "세종시";
-		
+		// if(are>=0 && area<=8) return "서울"; 			<<이런식으로 해도 됨 간단한게...
 		return ji;
 	}
 }

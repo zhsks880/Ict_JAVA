@@ -16,6 +16,7 @@ public class Q6_factorial {
 			f = f * i;
 			System.out.printf("입력[%d] 결과[%d]\n", temp, f);
 		}
+		System.out.println("결과값" + f);
 		scanner.close();
 	}
 
