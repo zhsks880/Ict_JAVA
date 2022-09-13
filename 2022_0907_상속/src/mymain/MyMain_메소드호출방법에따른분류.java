@@ -38,7 +38,7 @@ public class MyMain_메소드호출방법에따른분류 {
 		//System.out.println("========================");
 		//MyLine.draw_line();
 		MyLine.draw_line(line_len);		//2. 선긋기의 자동화..
-		MyLine.draw_line('*', 4, '-', 2, 30);
+		MyLine.draw_line('*', 4, '-', 2, 20);
 		//MyLine.draw_line('*',3,'-',2,30);
 		// ***--***--***--
 		
