@@ -16,6 +16,7 @@ public class MyTime {
 	int minute;
 	int second;
 	
+	
 	//扁夯积己磊 : default constructor / 积己磊 绝捞 积己
 	public MyTime() {
 		System.out.println("--MyTime--");
