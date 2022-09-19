@@ -12,7 +12,6 @@ public class _02_Set {
 		1.순서 없이 저장 되는 자료구조
 		2.동일한 값은 중복저장 안된다
 		3.들어가는 값은 순서없이 저장되나 꺼내서 쓸때 HashSet, TreeSet 등 순서 지정이 된다
-	
 	*/
 	
 	public static void main(String[] args) {

@@ -9,9 +9,6 @@ package vo;
 		->To(Transfer Object)
 		->의미없는 비교 		DTO			vs 		VO
 							R/W(Read/Write)			R(Read only) 쓸대없는 소리다~
-	
-
-
 */
 public class PersonVo {
 	
