@@ -20,7 +20,7 @@ public class InputStreamEx {
 		
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("C:/Work/hello.txt");
+			fis = new FileInputStream("C:/Work/hello.txt");	//읽어오고자 하는 경로 입력
 	
 //			while(true) {
 //				int data = fis.read();	//1바이트 단위로 데이터를 읽어들임.
@@ -44,7 +44,7 @@ public class InputStreamEx {
 		} finally {
 			try {
 				//스트림을 더이상 사용하지 않을경우 시스템 자원을 반납하는 코드를 꼭 작성합니다.
-				fis.close();
+				fis.close();	//여기서 안해주면 nullpointexception 터질수도 있다. fis 가 값이 없을 경우도 있어서...
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

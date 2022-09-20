@@ -19,7 +19,7 @@ public class OutputStreamEx {
 		
 		FileOutputStream fos = null;
 		try {
-			fos = new FileOutputStream("c:/Work/" + name + ".txt");
+			fos = new FileOutputStream("c:/Work/" + name + ".txt");	//내보내고자 하는 경로 입력
 			System.out.print("문장을 입력하세요: ");
 			sc.nextLine();
 			String str = sc.nextLine();
