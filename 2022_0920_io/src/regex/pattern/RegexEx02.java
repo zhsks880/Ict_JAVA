@@ -18,6 +18,7 @@ public class RegexEx02 {
 		4. [0-9] : 숫자만 허용
 		5. &&: 교집합(좌항과 우항 패턴을 모두 만족하는 문자)
 		*/
+		
 		System.out.println(Pattern.matches("s[^1-9]eep", "s0eep"));
 		System.out.println(Pattern.matches("s[a-zA-Z]eep", "sLeep"));
 		System.out.println(Pattern.matches("s[a-dm-z]eep", "sleep"));
@@ -28,9 +29,9 @@ public class RegexEx02 {
 		1. Ex{n}: 앞에 있는 패턴이 n글자 일치해야한다.
 		2. Ex{n,m}: 최소 n글자 부터 최대 m글자가 일치해야한다.
 		3. Ex{n,}: 최소 n글자만 일치해야한다.
-		4. Ex?: 0번 혹은 한번
+		4. Ex?: 0번 혹은 한번	/ 2개 이상 안됨
 		5. Ex+: 최소 한번 이상
-		6. Ex*: 0번 혹은 여러번
+		6. Ex*: 0번 혹은 여러번	/ 2개 이상 가능
 		7. . : 문자 한 개와 일치시킴
 		*/
 		

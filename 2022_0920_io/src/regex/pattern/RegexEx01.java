@@ -23,7 +23,7 @@ public class RegexEx01 {
 		//전화번호 형식
 		// \\d : 숫자형식인지를 파악(\한개만 쓰는거임)
 		// \\d{3} : 숫자 3개를 찾음
-		// \\d{3, 4} : 숫자(자릿수)가 3이상 4이하를 찾음
+		// \\d{3,4} : 숫자(자릿수)가 3이상 4이하를 찾음
 		
 		//1.정규표현식 만들기
 		String pattern = "\\d{2,3}-\\d{3,4}-\\d{4}";
@@ -49,9 +49,7 @@ public class RegexEx01 {
 			System.out.println("끝 인덱스: " + m2.end());
 			System.out.println("찾은 값: " + m2.group());
 		}
-		
-		
-		
+
 	}
 
 }
